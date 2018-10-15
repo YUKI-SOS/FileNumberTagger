@@ -1,0 +1,10 @@
+C:\Users\computer\source\repos\FileNameRenumber\FileNameRenumber\bin\Debug\FileNameRenumber.exe.config
+C:\Users\computer\source\repos\FileNameRenumber\FileNameRenumber\bin\Debug\FileNameRenumber.exe
+C:\Users\computer\source\repos\FileNameRenumber\FileNameRenumber\bin\Debug\FileNameRenumber.pdb
+C:\Users\computer\source\repos\FileNameRenumber\FileNameRenumber\obj\Debug\FileNameRenumber.csprojAssemblyReference.cache
+C:\Users\computer\source\repos\FileNameRenumber\FileNameRenumber\obj\Debug\FileNameRenumber.Form1.resources
+C:\Users\computer\source\repos\FileNameRenumber\FileNameRenumber\obj\Debug\FileNameRenumber.Properties.Resources.resources
+C:\Users\computer\source\repos\FileNameRenumber\FileNameRenumber\obj\Debug\FileNameRenumber.csproj.GenerateResource.cache
+C:\Users\computer\source\repos\FileNameRenumber\FileNameRenumber\obj\Debug\FileNameRenumber.csproj.CoreCompileInputs.cache
+C:\Users\computer\source\repos\FileNameRenumber\FileNameRenumber\obj\Debug\FileNameRenumber.exe
+C:\Users\computer\source\repos\FileNameRenumber\FileNameRenumber\obj\Debug\FileNameRenumber.pdb
