@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace FileNameRenumber
 {
@@ -62,7 +63,7 @@ namespace FileNameRenumber
         private void button2_Click(object sender, EventArgs e)
         {
             if (listBox1.SelectedIndex == -1)
-            { MessageBox.Show("select an item to move","Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+            { MessageBox.Show("항목을 선택하세요", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
          else   {
                 int newIndex = listBox1.SelectedIndex - 1;
                 if (newIndex < 0)
@@ -79,7 +80,7 @@ namespace FileNameRenumber
         private void button3_Click(object sender, EventArgs e)
         {
             if (listBox1.SelectedIndex == -1)
-            { MessageBox.Show("select an item to move", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+            { MessageBox.Show("항목을 선택하세요", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
             else
             {
                 int newIndex = listBox1.SelectedIndex + 1;
@@ -107,6 +108,11 @@ namespace FileNameRenumber
         //numcreate
         private void button5_Click(object sender, EventArgs e)
         {
+            if (textBox1.Text == "")
+            {
+                MessageBox.Show("파일을 복사할 경로를 설정해주세요.","Error",MessageBoxButtons.OK , MessageBoxIcon.Error);
+                return;
+            }
             string[] FileArray = new string[1000];
             for (int i = 0; i < listBox1.Items.Count; i++)
             {
@@ -116,11 +122,28 @@ namespace FileNameRenumber
                 {
                  File.Copy(FileArray[i], textBox1.Text + "\\" + i.ToString("D3") + "_" + Path.GetFileName(FileArray[i]) + ".jpg");
                 }
+                if (Path.GetExtension(FileArray[i]) == ".png")
+                {
+                    File.Copy(FileArray[i], textBox1.Text + "\\" + i.ToString("D3") + "_" + Path.GetFileName(FileArray[i]) + ".png");
+                }
                 if (Path.GetExtension(FileArray[i]) == ".mp3")
                 {
                     File.Copy(FileArray[i], textBox1.Text + "\\" + i.ToString("D3") + "_" + Path.GetFileName(FileArray[i]) + ".mp3");
                 }
+                if (Path.GetExtension(FileArray[i]) == ".mp4")
+                {
+                    File.Copy(FileArray[i], textBox1.Text + "\\" + i.ToString("D3") + "_" + Path.GetFileName(FileArray[i]) + ".mp4");
+                }
+                if (Path.GetExtension(FileArray[i]) == ".wav")
+                {
+                    File.Copy(FileArray[i], textBox1.Text + "\\" + i.ToString("D3") + "_" + Path.GetFileName(FileArray[i]) + ".wav");
+                }
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/YUKI-SOS/FileNumberTagger");
         }
     }
 }

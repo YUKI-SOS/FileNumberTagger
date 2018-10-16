@@ -1,0 +1,10 @@
+C:\Users\computer\Downloads\FileNumberTagger\FileNumberTagger\FileNameRenumber\FileNameRenumber\bin\Release\FileNameRenumber.exe.config
+C:\Users\computer\Downloads\FileNumberTagger\FileNumberTagger\FileNameRenumber\FileNameRenumber\bin\Release\FileNameRenumber.exe
+C:\Users\computer\Downloads\FileNumberTagger\FileNumberTagger\FileNameRenumber\FileNameRenumber\bin\Release\FileNameRenumber.pdb
+C:\Users\computer\Downloads\FileNumberTagger\FileNumberTagger\FileNameRenumber\FileNameRenumber\obj\Release\FileNameRenumber.csprojAssemblyReference.cache
+C:\Users\computer\Downloads\FileNumberTagger\FileNumberTagger\FileNameRenumber\FileNameRenumber\obj\Release\FileNameRenumber.Form1.resources
+C:\Users\computer\Downloads\FileNumberTagger\FileNumberTagger\FileNameRenumber\FileNameRenumber\obj\Release\FileNameRenumber.Properties.Resources.resources
+C:\Users\computer\Downloads\FileNumberTagger\FileNumberTagger\FileNameRenumber\FileNameRenumber\obj\Release\FileNameRenumber.csproj.GenerateResource.cache
+C:\Users\computer\Downloads\FileNumberTagger\FileNumberTagger\FileNameRenumber\FileNameRenumber\obj\Release\FileNameRenumber.csproj.CoreCompileInputs.cache
+C:\Users\computer\Downloads\FileNumberTagger\FileNumberTagger\FileNameRenumber\FileNameRenumber\obj\Release\FileNameRenumber.exe
+C:\Users\computer\Downloads\FileNumberTagger\FileNumberTagger\FileNameRenumber\FileNameRenumber\obj\Release\FileNameRenumber.pdb
